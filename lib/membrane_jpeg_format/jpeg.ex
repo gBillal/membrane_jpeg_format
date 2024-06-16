@@ -16,7 +16,7 @@ defmodule Membrane.JPEG do
   @typedoc """
   Pixel format of the encoded frame.
   """
-  @type pixel_format :: :I420 | :I422
+  @type pixel_format :: :I420 | :I422 | :I444 | :GRAY
 
   @typedoc """
   Format definition for JPEG image.
